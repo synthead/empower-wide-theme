@@ -1,6 +1,6 @@
 # Wide theme for Empower Personal Dashboard
 
-Here's a theme for Empower Personal Dashboard that removes the narrow width constraint for the content!  This allows all the graphs, tables, and other useful content take full size of your browser.
+Here's a theme for Empower Personal Dashboard that removes the narrow width constraint for the content!  This allows all the graphs, tables, and other useful content to take full advantage of the size of your browser.
 
 ## How to use
 
