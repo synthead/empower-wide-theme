@@ -35,6 +35,10 @@
     width: 95px !important;
   }
 
+  div.pc-transactions-grid-cell--account-name {
+    width: 200px !important;
+  }
+
   div.pc-transactions-grid-cell--description {
     flex-grow: 1;
   }
