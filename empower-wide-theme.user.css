@@ -1,0 +1,53 @@
+/* ==UserStyle==
+@name           Empower Wide Theme
+@namespace      synthead
+@homepageURL    https://github.com/synthead/empower-wide-theme
+@supportURL     https://github.com/synthead/empower-wide-theme/issues
+@updateURL      https://github.com/synthead/empower-wide-theme/raw/main/empower-wide-theme.user.css
+@version        1.0.0
+@description    Use the full browser width in Empower.
+@author         Maxwell Pray
+==/UserStyle== */
+
+@-moz-document url("https://home.personalcapital.com/page/login/app") {
+  /* Set content width to 100% and add a left margin. */
+
+  div.main-container__inner {
+    width: 100% !important;
+    margin-left: 10px !important;
+  }
+
+  /* Fix right margin in content. */
+
+  div.l-content {
+    margin-right: 20px;
+  }
+
+  /* Fix "Sign out" button margin in navbar. */
+
+  nav.main-navbar div.l-spaced--flush {
+    margin-right: 20px;
+  }
+
+  /* Allow "Description" column to take the full width in "Transactions" view. */
+
+  div.pc-transactions-grid-cell--date {
+    width: 95px !important;
+  }
+
+  div.pc-transactions-grid-cell--description {
+    flex-grow: 1;
+  }
+
+  div.pc-transactions-grid-cell--category {
+    width: 181px !important;
+  }
+
+  div.pc-transactions-grid-cell--tags {
+    width: 105px !important;
+  }
+
+  div.pc-transactions-grid-cell--amount {
+    width: 143px !important;
+  }
+}
