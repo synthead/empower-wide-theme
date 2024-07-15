@@ -17,9 +17,11 @@
     margin-left: 10px !important;
   }
 
-  /* Fix right margin in content. */
+  /* Fix right margin in content and footer. */
 
-  div.l-content {
+  div.l-content,
+  footer.footer--dfa
+  {
     margin-right: 20px;
   }
 
